@@ -1,0 +1,6 @@
+{
+  "name": "西方奇幻神諭抽牌問事",
+  "description": "沉浸式西方奇幻神諭占卜應用，收錄 52 張大奧秘神諭牌，透過凝神立誓、時光法陣、3D 翻牌與針對具體提問的深度啟示，指引命運曙光。",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="zh-Hant" class="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>西方奇幻神諭抽牌問事</title>
+    <meta name="description" content="沉浸式西方奇幻神諭占卜應用，透過凝神立誓、洗牌展開、3D 翻牌與命運詩歌啟示，指引前路抉擇。" />
+    <meta property="og:title" content="西方奇幻神諭抽牌問事" />
+    <meta property="og:description" content="沉浸式西方奇幻神諭占卜應用，透過凝神立誓、洗牌展開、3D 翻牌與命運詩歌啟示，指引前路抉擇。" />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700;800;900&family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script>
+      // AI Studio Environment Constraint: HMR is disabled. Ignore WebSocket errors.
+      window.addEventListener('unhandledrejection', function (event) {
+        var msg = String(event?.reason?.message || event?.reason || '');
+        if (msg.includes('WebSocket') || msg.includes('vite:ws') || msg.includes('vite-hmr')) {
+          event.preventDefault();
+          event.stopPropagation();
+        }
+      });
+      window.addEventListener('error', function (event) {
+        var msg = String(event?.message || '');
+        var file = String(event?.filename || '');
+        if (msg.includes('WebSocket') || file.includes('@vite/client')) {
+          event.preventDefault();
+          event.stopPropagation();
+        }
+      });
+    </script>
+  </head>
+  <body class="bg-[#0b0c16] text-[#e8e6e3] antialiased selection:bg-amber-500/30 selection:text-amber-200">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
